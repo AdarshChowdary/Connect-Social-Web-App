@@ -124,7 +124,7 @@ export default function PostEditor() {
 
 interface AddAttachmentsButtonProps {
   onFilesSelected: (files: File[]) => void;
-  disabled: Boolean;
+  disabled: boolean;
 }
 
 function AddAttachmentsButton({
